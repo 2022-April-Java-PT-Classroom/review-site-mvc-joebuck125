@@ -1,0 +1,55 @@
+* {
+    font-family: 'Lato' , sans-serif;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Changes all text color */
+    color: blanchedalmond;
+
+}
+
+html {
+    font-size: 16px;
+
+    margin-top: 3em;
+
+}
+
+h1, h2, h3, {
+    /* Changes all text color */
+    color: blanchedalmond;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header {
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+body {
+    background-color: #999;
+
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: #666;
+    color: blanchedalmond;
+    padding: 1em 0;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
