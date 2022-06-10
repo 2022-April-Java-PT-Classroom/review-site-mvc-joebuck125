@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${energyDrinkModel.brand}">Bang</title>
+</head>
+<body>
+<header>
+    <h1 th:text="${energyDrinkModel.brand}">Bang</h1>
+</header>
+<main>
+    <ul>
+        <p><a href="/energyDrinks">EnergyDrinks</a></p>
+        <li th:text="${energyDrinkModel.brand}"></li>
+    </ul>
+    <h2 th:text="${energyDrinkModel.flavor}"></h2>
+    <h3 th:text="${energyDrinkModel.description}"></h3>
+    <img th:src="${energyDrinkModel.imgUrl}">
+</main>
+<footer>
+    <small>&copy All Rights Reserved, JBB Flavor Testing, Inc. 2022</small>
+</footer>
+</body>
+</html>

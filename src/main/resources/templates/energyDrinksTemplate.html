@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Energy Drink Flavors, A Study</title>
+</head>
+<body>
+    <header>
+        <h1>Energy Drinks and Their Flavors: A Deeper Look</h1>
+    </header>
+<main>
+    <ul>
+        <li th:each="energyDrink: ${energyDrinksModel}"><a th:href="@{/energyDrink(id=${energyDrink.id})}" th:text="${energyDrink.brand}"></a></li>
+    </ul>
+
+</main>
+<footer>
+    <small>&copy All Rights Reserved, JBB Flavor Testing, Inc. 2022</small>
+</footer>
+</body>
+</html>
